@@ -1,0 +1,33 @@
+<div class="overflow-x-auto">
+    <table class="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
+        <thead class="ltr:text-left rtl:text-right">
+            <tr>
+                <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Name</th>
+                <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Date of Birth</th>
+                <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Role</th>
+                <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Salary</th>
+                <th class="px-4 py-2"></th>
+            </tr>
+        </thead>
+
+        <tbody class="divide-y divide-gray-200" *ngFor="let item of products">
+            <tr>
+                <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">{{item.title}}</td>
+                <td class="whitespace-nowrap px-4 py-2 text-gray-700">{{item.image}}</td>
+                <td class="whitespace-nowrap px-4 py-2 text-gray-700">{{item.price}}</td>
+                <td class="whitespace-nowrap px-4 py-2">
+                    <button (click)="delete(item.id)"
+                        class="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700">
+                        Xóa
+                    </button>
+                </td>
+                <td class="whitespace-nowrap px-4 py-2">
+                    <a [routerLink]="['/products/update',item.id]" routerLinkActive="router-link-active"
+                        class="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700">
+                        Sửa
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

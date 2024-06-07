@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "title": "sua thanh cong",
+      "image": "sua thanh cong",
+      "price": 2333,
+      "id": "2"
+    },
+    {
+      "title": "san pham 2",
+      "image": "anh 2",
+      "price": 1245,
+      "id": "bELYLQP"
+    },
+    {
+      "title": "san pham 34",
+      "image": "san pham 34",
+      "price": 122,
+      "id": "fxx5SsZ"
+    }
+  ],
+  "users": [
+    {
+      "email": "vietbv@gmail.com",
+      "password": "$2a$10$2G8Uuyn/UuJzB/XAW2rHP.ik19f7EZPeRecEljbVLlRq/nBfIvd76",
+      "userName": "ban van viet",
+      "id": 1
+    },
+    {
+      "email": "vietbv2004@gmail.com",
+      "password": "$2a$10$Z/TjyAix9KUg47HXRNMIpOd/PWV4oWab8arjmEknFACMcd/9u4FBa",
+      "userName": "vietbv",
+      "id": 2
+    },
+    {
+      "email": "viet2004@gmail.com",
+      "password": "$2a$10$5FBMcv/KG/xx8qAT2GBfleSft9Z9JNQjH/GZGUWWkg7mnn/f8dpvu",
+      "userName": "viet2004",
+      "id": 3
+    },
+    {
+      "email": "abcd@gmail.com",
+      "password": "$2a$10$EfmD9wbbJzBZTj99wMDEzuaAjtrtwoge0em6mXm7qLMnl9OtLeEgm",
+      "userName": "abcd",
+      "id": 4
+    }
+  ]
+}
